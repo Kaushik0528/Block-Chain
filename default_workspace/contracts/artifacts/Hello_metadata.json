@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "initName",
+						"type": "string"
+					}
+				],
+				"name": "Hellofnc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sayhello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "x",
+						"type": "string"
+					}
+				],
+				"name": "setName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Helloworld.sol": "Hello"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Helloworld.sol": {
+			"keccak256": "0xe13464586297bff4d340d8f87364fdbfdd16356806143d1829671735d7bc3442",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://91ea0dbf41309c141dd86fc145c65bd5beebcfa7bf30a9d1f24df70bcda7eafb",
+				"dweb:/ipfs/Qmd34avZSuEab72FGkP9yUsY5XYK83WbM514f7Jx3ncVP5"
+			]
+		}
+	},
+	"version": 1
+}
